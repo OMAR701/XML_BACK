@@ -1,0 +1,1 @@
+{"RegisterEmployee": {"@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance", "Employe": [{"Position": "Head Master", "Salaire": "20000", "Nom": "KADER"}, {"Position": "General Director", "Salaire": "200", "Nom": "KADIR"}]}}
