@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    
+    <xs:element name="RegisterEmployee">
+    <xs:complexType >
+        <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="Employe">
+                <xs:complexType>
+                    <xs:all>
+                        <xs:element name="Nom" type="xs:string"/>
+                        <xs:element name="Position" type="xs:string"/>
+                        <xs:element name="Salaire" type="xs:float"/>
+                    </xs:all>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT encyclopedie (personne*)>
+<!ELEMENT personne (nom, prenom, publication+, date)>
+<!ATTLIST personne sexe (H|F) "F">
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT publication (#PCDATA)>
+<!ELEMENT date EMPTY>
+<!ATTLIST date annee NMTOKEN #REQUIRED mois NMTOKEN #REQUIRED jour NMTOKEN #REQUIRED>

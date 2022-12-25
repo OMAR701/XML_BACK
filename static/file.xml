@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book SYSTEM "ex-1.dtd">
+<book>
+    <section id="sec0">Une référence <ref idref="sec1"/></section>
+    <section id="sec1">Des références <refs idrefs="sec0 sec2"/></section>
+    <section id="sec2">Section sans référence</section>
+    <section id="sec3">Une auto-référence <refs idrefs="sec3"/></section>
+</book>
