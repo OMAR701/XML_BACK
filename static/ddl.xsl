@@ -18,7 +18,7 @@
       <xsl:if test="$fields">
         <xsl:variable name="tableName" select="@name" />
         <xsl:variable name="generatedKey" select="concat($tableName, '_id')" />
-        <xsl:text>##CREATE TABLE </xsl:text>
+        <xsl:text> CREATE TABLE </xsl:text>
         <xsl:value-of select="$tableName" />
         <xsl:text> &#10;( &#10;</xsl:text>
         <xsl:variable name="primaryKey"
